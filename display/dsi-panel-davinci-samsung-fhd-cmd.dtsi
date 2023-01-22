@@ -668,6 +668,8 @@
 				qcom,mdss-dsc-bit-per-pixel = <8>;
 				qcom,mdss-dsc-block-prediction-enable;
 			};
+
+                        /delete-node/ timing@1;
 		};	
 	};
 };
